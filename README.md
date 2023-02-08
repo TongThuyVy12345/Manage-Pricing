@@ -345,3 +345,9 @@ The final price is the total price of products and depends on each product type.
 * For simple, virtual, and downloadable products: the final price is the lowest price among _regular\_price_, _catalog\_rule\_price_, _special\_price_, and _tier\_price._
 * For configurable products (Magento 2 configurable product price): the final price is the lowest price among _base\_price_, _tier\_price_, _index\_price_, and _catalog\_rule\_price_ of selected products. __&#x20;
 * For grouped products: the final price is the lowest price among all options.&#x20;
+
+### **8.Catalog Price Rule**  <a href="#8-catalog-price-rule" id="8-catalog-price-rule"></a>
+
+### **9. Cart Price Rule**  <a href="#9-cart-price-rule" id="9-cart-price-rule"></a>
+
+### 10.Price Box

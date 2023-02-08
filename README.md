@@ -13,7 +13,7 @@ Regular price: is the product’s original price which is used to calculate disc
 Advanced pricing: allows store owners to offer Magento 2 special price of the product based on customer groups, sales, or quantity.
 
 {% hint style="danger" %}
-Advanced pricing works well with simple, bundle, virtual, and downloadable products. Grouped, configurable products and gift card are except.
+Advanced pricing works well with simple, bundle, virtual, and downloadable products. Grouped, configurable products and gift card are except.&#x20;
 {% endhint %}
 
 ### 1.1. Price Display Settings <a href="#1-1-price-display-settings" id="1-1-price-display-settings"></a>
@@ -26,7 +26,7 @@ Expand the Price Display Settings Section.
 
 ![price display settings](https://bsscommerce.com/confluence/wp-content/uploads/2019/09/price-display-settings.png)
 
-In **Display Product Prices In Catalog** and **Display Shipping Prices**: You decide whether product prices are included tax or not when showing them on the frontend.
+In **Display Product Prices In Catalog** and **Display Shipping Prices**: You decide whether product prices are included tax or not when showing them on the frontend.&#x20;
 
 * Excluding tax
 * Including tax.
@@ -34,19 +34,19 @@ In **Display Product Prices In Catalog** and **Display Shipping Prices**: You de
 
 #### **1.1.2. Shopping Cart Display Settings**
 
-In the Tax section, you continue to expand the Shopping Cart Display Setting section.
+In the Tax section, you continue to expand the Shopping Cart Display Setting section.&#x20;
 
 ![shopping cart display settings](https://bsscommerce.com/confluence/wp-content/uploads/2019/09/shopping-cart-display-settings.png)
 
-In **Display Prices, Display Subtotal, and Display Shipping Amount:** select Including Tax, Excluding Tax, or Including and Excluding Tax to determine how prices are displayed in terms of tax.
+In **Display Prices, Display Subtotal, and Display Shipping Amount:** select Including Tax, Excluding Tax, or Including and Excluding Tax to determine how prices are displayed in terms of tax.&#x20;
 
-In **Include Tax In Order Total:** choose Yes or No to decide whether tax is included in Order Total or not.
+In **Include Tax In Order Total:** choose Yes or No to decide whether tax is included in Order Total or not.&#x20;
 
-In **Display Full Tax Summary**: choose Yes or No to decide whether full tax summary is displayed in the shopping cart.
+In **Display Full Tax Summary**: choose Yes or No to decide whether full tax summary is displayed in the shopping cart.&#x20;
 
-In **Display Zero Tax Subtotal**: choose Yes or No to display or hide zero tax subtotal in the shopping cart.
+In **Display Zero Tax Subtotal**: choose Yes or No to display or hide zero tax subtotal in the shopping cart.&#x20;
 
-### 1.2. Price Decimal <a href="#1-2-price-decimal" id="1-2-price-decimal"></a>
+### 1.2. Price Decimal  <a href="#1-2-price-decimal" id="1-2-price-decimal"></a>
 
 The **«Price Decimal Precision»** Magento 2 extension allows a store administrator to setup a custom display decimal precision for the prices and other currency values (discounts, taxes, sales amounts, etc.) both for the frontend and the backend areas. The price display settings are individual per currency and per store. The extension supports an unlimited number of currencies.
 
@@ -78,27 +78,27 @@ The **«Price Decimal Precision»** extension allows you to change or delete the
 Stores -> Configuration -> Catalog
 ```
 
-## **2. Special Price** <a href="#2-special-price" id="2-special-price"></a>
+## **2. Special Price**  <a href="#2-special-price" id="2-special-price"></a>
 
-### 2.1. Definition <a href="#2-1-definition" id="2-1-definition"></a>
+### 2.1. Definition  <a href="#2-1-definition" id="2-1-definition"></a>
 
-Beside running price rules to discount products, you can also use Magento 2 special prices to give promotional product prices for customers during a specific period of time. Magento 2 special prices are displayed on the product pages and category pages, and more highlighted than the regular prices. For Magento 2 configurable product prices, special prices are shown on the product pages when customers select custom options.
+Beside running price rules to discount products, you can also use Magento 2 special prices to give promotional product prices for customers during a specific period of time. Magento 2 special prices are displayed on the product pages and category pages, and more highlighted than the regular prices. For Magento 2 configurable product prices, special prices are shown on the product pages when customers select custom options.&#x20;
 
 > In Magento Commerce edition, you can schedule Magento 2 special price on a period by using Scheduled Update configurations.
 
 {% hint style="warning" %}
-If Magento 2 special prices do not appear on the frontend, you should check the following issues:
+If Magento 2 special prices do not appear on the frontend, you should check the following issues:&#x20;
 
-* Reindex to update in the database if prices in the catalog are not correct.
+* Reindex to update in the database if prices in the catalog are not correct.&#x20;
 * Cache is flushed or not?
 * Customers have system cache or not?
 * Prices are affected by other variables or not? (like store view, currency,…)
 {% endhint %}
 
-### 2.3. Customization <a href="#2-3-customization" id="2-3-customization"></a>
+### 2.3. Customization  <a href="#2-3-customization" id="2-3-customization"></a>
 
 If you want to use a fixed percentage, and also display this discount percentage on the product page, Magento now does not support it.\
-Hence, you can consider installing Product Label extension to add labels for products or use code to change the logic in the template. Please read this topic on Stack exchange to know how it can be resolved.\
+Hence, you can consider installing Product Label extension to add labels for products or use code to change the logic in the template. Please read this topic on Stack exchange to know how it can be resolved. \
 Most conveniently, you can now grant different prices of each product to a specific customer or customer group. With Price per Customer, price segmentation becomes a piece of cake, and your customers are given the treat they deserve!
 
 ## **3. Tier Price and Group Price** <a href="#3-tier-price-and-group-price" id="3-tier-price-and-group-price"></a>
@@ -113,7 +113,8 @@ In Magento 2, you cannot find out the Tier price settings as in Magento 1 becaus
 
 <figure><img src=".gitbook/assets/image (4).png" alt=""><figcaption><p>Customer Group Price</p></figcaption></figure>
 
-For example: Tier prices are displayed on the frontend as below\\
+For example: Tier prices are displayed on the frontend as below\
+
 
 <figure><img src=".gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
@@ -123,7 +124,7 @@ For example: Tier prices are displayed on the frontend as below\\
 
 **Group Price**: is the discount price for specific customer groups. It is also a component of tier price with the same settings. However, customer group price is used for quantity as 1.
 
-### 3.2. Customization <a href="#3-2-customization" id="3-2-customization"></a>
+### 3.2. Customization  <a href="#3-2-customization" id="3-2-customization"></a>
 
 If your store does sell configurable products, you can customize Magento 2 configurable product price: the way to calculate tier prices for children products. By using Magento 2 Configurable Product Wholesale Display, Grid Table View or Matrix View extension, tier prices are calculated based on the total quantity of children products added to cart.
 
@@ -133,45 +134,45 @@ If your store does sell configurable products, you can customize Magento 2 confi
 
 <figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption><p>Matrix View extension</p></figcaption></figure>
 
-### **4. Option Price** <a href="#4-option-price" id="4-option-price"></a>
+### **4. Option Price**  <a href="#4-option-price" id="4-option-price"></a>
 
 ### 4.1. Add price for custom options <a href="#4-1-add-price-for-custom-options" id="4-1-add-price-for-custom-options"></a>
 
-Adding custom options offers customers choices of options to make a specific product. These custom options are selected under input types including text, selection, and date. Custom options should be used when store inventory is simple and even no need to be managed.
+Adding custom options offers customers choices of options to make a specific product. These custom options are selected under input types including text, selection, and date. Custom options should be used when store inventory is simple and even no need to be managed.&#x20;
 
-To price custom options, you navigate to Customizable Options in the Product Edit Page of the backend.
+To price custom options, you navigate to Customizable Options in the Product Edit Page of the backend.&#x20;
 
-Click **Add Option** to make New Option section appear.
+Click **Add Option** to make New Option section appear.&#x20;
 
-Enter the option name into **Option Title** box and select **Option Type**
+Enter the option name into **Option Title** box and select **Option Type**&#x20;
 
-Then continue to click **Add Value** button and enter the option title name which defines a specific option
+Then continue to click **Add Value** button and enter the option title name which defines a specific option&#x20;
 
-In **Price type,** choose how to calculate prices of custom options according to the base price – Fixed or Percentage.
+In **Price type,** choose how to calculate prices of custom options according to the base price – Fixed or Percentage.&#x20;
 
 In **Price**, determine a number to specify the price of custom options or the percentage to calculate the option price based on the base price (as mentioned above).
 
-### 4.2. Customization <a href="#4-2-customization" id="4-2-customization"></a>
+### 4.2. Customization  <a href="#4-2-customization" id="4-2-customization"></a>
 
-In the default Magento 2, custom options prices are added into the product prices. Hence, when customers buy a number of products, the total prices of custom options are equal to the product quantity multiply the price value of this option.
+In the default Magento 2, custom options prices are added into the product prices. Hence, when customers buy a number of products, the total prices of custom options are equal to the product quantity multiply the price value of this option.&#x20;
 
 \
-As we know, each Magento 2 product type has various prices. The logic and display of Price on the frontend are dependent on many variables and calculations in each config.
+As we know, each Magento 2 product type has various prices. The logic and display of Price on the frontend are dependent on many variables and calculations in each config.&#x20;
 
-To make it clearer, we will list the main configurations that will affect the price (display and calculation) on Magento 2.
+To make it clearer, we will list the main configurations that will affect the price (display and calculation) on Magento 2.&#x20;
 
 ### **1. Regular Price and Advanced Pricing** <a href="#1-regular-price-and-advanced-pricing" id="1-regular-price-and-advanced-pricing"></a>
 
 Regular price: is the product’s original price which is used to calculate discounts.
 
-Advanced pricing: allows store owners to offer Magento 2 special price of the product based on customer groups, sales, or quantity. There are some kinds of Advanced pricing for store owners to set up:
+Advanced pricing: allows store owners to offer Magento 2 special price of the product based on customer groups, sales, or quantity. There are some kinds of Advanced pricing for store owners to set up:&#x20;
 
 * Magento 2 Special price: is the discounted price in a specific time period
-* Group price: specify promotional price set up for each customer group
+* Group price: specify promotional price set up for each customer group&#x20;
 * Manufacturer’s Suggested Retail Price: is the price suggested by manufacturers
 * Actual price
 
-\*Note: Advanced pricing works well with simple, bundle, virtual, and downloadable products. Grouped, configurable products and gift card are except.
+\*Note: Advanced pricing works well with simple, bundle, virtual, and downloadable products. Grouped, configurable products and gift card are except.&#x20;
 
 #### 1.1. Price Display Settings <a href="#1-1-price-display-settings" id="1-1-price-display-settings"></a>
 
@@ -183,7 +184,7 @@ Expand the Price Display Settings Section.
 
 ![price display settings](https://bsscommerce.com/confluence/wp-content/uploads/2019/09/price-display-settings.png)
 
-In Display Product Prices In Catalog and Display Shipping Prices: You decide whether product prices are included tax or not when showing them on the frontend.
+In Display Product Prices In Catalog and Display Shipping Prices: You decide whether product prices are included tax or not when showing them on the frontend.&#x20;
 
 * Excluding tax
 * Including tax.
@@ -191,104 +192,104 @@ In Display Product Prices In Catalog and Display Shipping Prices: You decide whe
 
 **1.1.2. Shopping Cart Display Settings**
 
-In the Tax section, you continue to expand the Shopping Cart Display Setting section.
+In the Tax section, you continue to expand the Shopping Cart Display Setting section.&#x20;
 
 ![shopping cart display settings](https://bsscommerce.com/confluence/wp-content/uploads/2019/09/shopping-cart-display-settings.png)
 
-In Display Prices, Display Subtotal, and Display Shipping Amount: select Including Tax, Excluding Tax, or Including and Excluding Tax to determine how prices are displayed in terms of tax.
+In Display Prices, Display Subtotal, and Display Shipping Amount: select Including Tax, Excluding Tax, or Including and Excluding Tax to determine how prices are displayed in terms of tax.&#x20;
 
-In Include Tax In Order Total: choose Yes or No to decide whether tax is included in Order Total or not.
+In Include Tax In Order Total: choose Yes or No to decide whether tax is included in Order Total or not.&#x20;
 
-In Display Full Tax Summary: choose Yes or No to decide whether full tax summary is displayed in the shopping cart.
+In Display Full Tax Summary: choose Yes or No to decide whether full tax summary is displayed in the shopping cart.&#x20;
 
-In Display Zero Tax Subtotal: choose Yes or No to display or hide zero tax subtotal in the shopping cart.
+In Display Zero Tax Subtotal: choose Yes or No to display or hide zero tax subtotal in the shopping cart.&#x20;
 
-#### 1.2. Price Decimal <a href="#1-2-price-decimal" id="1-2-price-decimal"></a>
+#### 1.2. Price Decimal  <a href="#1-2-price-decimal" id="1-2-price-decimal"></a>
 
-In default Magento 2, price is always enclosed with decimal. However, in case your product prices are even numbers, you want to remove the decimal from price to make them more user-friendly. Hence, you need an extension called [Magento 2 Price Decimal](https://github.com/lillik/magento2-price-decimal) to customize prices as you desire.
+In default Magento 2, price is always enclosed with decimal. However, in case your product prices are even numbers, you want to remove the decimal from price to make them more user-friendly. Hence, you need an extension called [Magento 2 Price Decimal](https://github.com/lillik/magento2-price-decimal) to customize prices as you desire.&#x20;
 
-### **2. Special Price** <a href="#2-special-price" id="2-special-price"></a>
+### **2. Special Price**  <a href="#2-special-price" id="2-special-price"></a>
 
-#### 2.1. Definition <a href="#2-1-definition" id="2-1-definition"></a>
+#### 2.1. Definition  <a href="#2-1-definition" id="2-1-definition"></a>
 
-Beside running price rules to discount products, you can also use Magento 2 special prices to give promotional product prices for customers during a specific period of time. Magento 2 special prices are displayed on the product pages and category pages, and more highlighted than the regular prices. For Magento 2 configurable product prices, special prices are shown on the product pages when customers select custom options.
+Beside running price rules to discount products, you can also use Magento 2 special prices to give promotional product prices for customers during a specific period of time. Magento 2 special prices are displayed on the product pages and category pages, and more highlighted than the regular prices. For Magento 2 configurable product prices, special prices are shown on the product pages when customers select custom options.&#x20;
 
 \*Note: In Magento Commerce edition, you can schedule Magento 2 special price on a period by using Scheduled Update configurations.
 
-#### 2.2. Debug <a href="#2-2-debug" id="2-2-debug"></a>
+#### 2.2. Debug  <a href="#2-2-debug" id="2-2-debug"></a>
 
-If Magento 2 special prices do not appear on the frontend, you should check the following issues:
+If Magento 2 special prices do not appear on the frontend, you should check the following issues:&#x20;
 
-* Reindex to update in the database if prices in the catalog are not correct.
+* Reindex to update in the database if prices in the catalog are not correct.&#x20;
 * Cache is flushed or not?
 * Customers have system cache or not?
 * Prices are affected by other variables or not? (like store view, currency,…)
 
-#### 2.3. Customization <a href="#2-3-customization" id="2-3-customization"></a>
+#### 2.3. Customization  <a href="#2-3-customization" id="2-3-customization"></a>
 
-As you know, you just enter a fixed amount to determine a special price for a product. If you want to use a fixed percentage, and also display this discount percentage on the product page, Magento now does not support it. Hence, you can consider installing [Product Label](https://bsscommerce.com/magento-2-product-label-extension.html) extension to add labels for products or use code to change the logic in the template. Please read[ this topic on Stack exchange](https://magento.stackexchange.com/questions/219718/how-to-display-product-discount-percent-on-product-details-page-in-magento-2-2-1) to know how it can be resolved.
+As you know, you just enter a fixed amount to determine a special price for a product. If you want to use a fixed percentage, and also display this discount percentage on the product page, Magento now does not support it. Hence, you can consider installing [Product Label](https://bsscommerce.com/magento-2-product-label-extension.html) extension to add labels for products or use code to change the logic in the template. Please read[ this topic on Stack exchange](https://magento.stackexchange.com/questions/219718/how-to-display-product-discount-percent-on-product-details-page-in-magento-2-2-1) to know how it can be resolved.&#x20;
 
-Most conveniently, you can now grant different prices of each product to a specific customer or customer group. With [Price per Customer](https://bsscommerce.com/magento-2-custom-pricing.html), price segmentation becomes a piece of cake, and your customers are given the treat they deserve!
+Most conveniently, you can now grant different prices of each product to a specific customer or customer group. With [Price per Customer](https://bsscommerce.com/magento-2-custom-pricing.html), price segmentation becomes a piece of cake, and your customers are given the treat they deserve!&#x20;
 
 ### **3. Tier Price and Group Price** <a href="#3-tier-price-and-group-price" id="3-tier-price-and-group-price"></a>
 
-#### 3.1. Definition <a href="#3-1-definition" id="3-1-definition"></a>
+#### 3.1. Definition  <a href="#3-1-definition" id="3-1-definition"></a>
 
 Tier Price: allows you to provide a quantity discount for products from the catalog list or product page details. This kind of discount is applied to store views and customer groups.
 
-In Magento 2, you cannot find out the Tier price settings as in Magento 1 because it is changed into Customer Group Price.
+In Magento 2, you cannot find out the Tier price settings as in Magento 1 because it is changed into Customer Group Price.&#x20;
 
-⇒ For example: Tier prices are displayed on the frontend as below:
+⇒ For example: Tier prices are displayed on the frontend as below:&#x20;
 
 ![tier price frontend](https://bsscommerce.com/confluence/wp-content/uploads/2019/09/tier-price-frontend.png)
 
-\*Note: Default Magento 2 supports importing Customer Group Price via the Import function. Read more [HERE](https://docs.magento.com/m2/ee/user\_guide/system/data-import-price-tier.html)!
+\*Note: Default Magento 2 supports importing Customer Group Price via the Import function. Read more [HERE](https://docs.magento.com/m2/ee/user\_guide/system/data-import-price-tier.html)!&#x20;
 
-Group Price: is the discount price for specific customer groups. It is also a component of tier price with the same settings. However, customer group price is used for quantity as 1.
+Group Price: is the discount price for specific customer groups. It is also a component of tier price with the same settings. However, customer group price is used for quantity as 1.&#x20;
 
-#### 3.2. Customization <a href="#3-2-customization" id="3-2-customization"></a>
+#### 3.2. Customization  <a href="#3-2-customization" id="3-2-customization"></a>
 
 If your store does sell configurable products, you can customize Magento 2 configurable product price: the way to calculate tier prices for children products. By using [Magento 2 Configurable Product Wholesale Display,](https://bsscommerce.com/magento-2-configurable-product-wholesale-display-extension.html) [Grid Table View](https://bsscommerce.com/magento-2-configurable-product-grid-table-view-extension.html) or [Matrix View](https://bsscommerce.com/magento-2-configurable-product-matrix-view-extension.html) extension, tier prices are calculated based on the total quantity of children products added to cart.
 
-### **4. Option Price** <a href="#4-option-price" id="4-option-price"></a>
+### **4. Option Price**  <a href="#4-option-price" id="4-option-price"></a>
 
-#### 4.1. Add price for custom options <a href="#4-1-add-price-for-custom-options" id="4-1-add-price-for-custom-options"></a>
+#### 4.1. Add price for custom options  <a href="#4-1-add-price-for-custom-options" id="4-1-add-price-for-custom-options"></a>
 
-Adding custom options offers customers choices of options to make a specific product. These custom options are selected under input types including text, selection, and date. Custom options should be used when store inventory is simple and even no need to be managed.
+Adding custom options offers customers choices of options to make a specific product. These custom options are selected under input types including text, selection, and date. Custom options should be used when store inventory is simple and even no need to be managed.&#x20;
 
-To price custom options, you navigate to Customizable Options in the Product Edit Page of the backend.
+To price custom options, you navigate to Customizable Options in the Product Edit Page of the backend.&#x20;
 
-Click Add Option to make New Option section appear.
+Click Add Option to make New Option section appear.&#x20;
 
-Enter the option name into Option Title box and select Option Type
+Enter the option name into Option Title box and select Option Type&#x20;
 
-Then continue to click Add Value button and enter the option title name which defines a specific option
+Then continue to click Add Value button and enter the option title name which defines a specific option&#x20;
 
-In Price type, choose how to calculate prices of custom options according to the base price – Fixed or Percentage.
+In Price type, choose how to calculate prices of custom options according to the base price – Fixed or Percentage.&#x20;
 
 In Price, determine a number to specify the price of custom options or the percentage to calculate the option price based on the base price (as mentioned above).
 
-#### 4.2. Customization <a href="#4-2-customization" id="4-2-customization"></a>
+#### 4.2. Customization  <a href="#4-2-customization" id="4-2-customization"></a>
 
-In the default Magento 2, custom options prices are added into the product prices. Hence, when customers buy a number of products, the total prices of custom options are equal to the product quantity multiply the price value of this option.
+In the default Magento 2, custom options prices are added into the product prices. Hence, when customers buy a number of products, the total prices of custom options are equal to the product quantity multiply the price value of this option.&#x20;
 
-⇒ For example:
+⇒ For example:&#x20;
 
-Product A: $50
+Product A: $50&#x20;
 
-Custom option of Color: Red – $10
+Custom option of Color: Red – $10&#x20;
 
-If customers purchase 3 products, the total product price is: ($50×2)+ ($10×2) = $120.
+If customers purchase 3 products, the total product price is: ($50×2)+ ($10×2) = $120.&#x20;
 
-However, we found that a lot of store owners demand another solution. They want to give an absolute price for custom options, which means the total price of custom option is not dependent on the product quantity.
+However, we found that a lot of store owners demand another solution. They want to give an absolute price for custom options, which means the total price of custom option is not dependent on the product quantity. &#x20;
 
-In the case of that example, if the custom option of Red color has an absolute price value is $15. The total product price is now: ($50×2) + $15 = $115.
+In the case of that example, if the custom option of Red color has an absolute price value is $15. The total product price is now: ($50×2) + $15 = $115.&#x20;
 
-⇒ To make it real, this [Magento 2 Custom Option Absolute Price and Quantity](https://bsscommerce.com/magento-2-custom-option-absolute-price-and-quantity-extension.html) extension will be an ideal solution for you.
+⇒ To make it real, this [Magento 2 Custom Option Absolute Price and Quantity](https://bsscommerce.com/magento-2-custom-option-absolute-price-and-quantity-extension.html) extension will be an ideal solution for you.&#x20;
 
-Additionally, if you want to create unlimited dependent children options on the parent custom option, don’t miss out [Magento 2 Dependent Custom Options](https://bsscommerce.com/magento-2-dependent-custom-options-extension.html) extension! This module allows customers to select size S and M when they choose Red color, but customers can only select size L when they choose Blue color.
+Additionally, if you want to create unlimited dependent children options on the parent custom option, don’t miss out [Magento 2 Dependent Custom Options](https://bsscommerce.com/magento-2-dependent-custom-options-extension.html) extension! This module allows customers to select size S and M when they choose Red color, but customers can only select size L when they choose Blue color.&#x20;
 
-## **5. Price Scope** <a href="#5-price-scope" id="5-price-scope"></a>
+## **5. Price Scope**  <a href="#5-price-scope" id="5-price-scope"></a>
 
 The scope of the **base currency** that is used for product prices can be configured to apply at either the global or website level. If applied to the global level, the same price is used throughout the store hierarchy. If applied to the website level, the same product can be available at different prices from stores that are associated with different websites. By default, the scope of product pricing is global.
 
@@ -313,7 +314,7 @@ If you are using shared catalogs, also refer to **Set Pricing and Structure** in
 
 <figure><img src=".gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
-4. When complete, click **Save Config**.
+1. When complete, click **Save Config**.
 
 ### Use scope to set up product prices <a href="#use-scope-to-set-up-product-prices" id="use-scope-to-set-up-product-prices"></a>
 
@@ -328,138 +329,9 @@ Commerce does not allow setting a product price for each store. But you can chan
 See [Currency configuration](currency.md#currency-configuration) for more details about these configurations.
 {% endhint %}
 
-{% hint style="success" %}
-Read more :[Currency](currency.md)
-{% endhint %}
+### &#x20;<a href="#5-2-price-scope" id="5-2-price-scope"></a>
 
-## **6. Tax**  <a href="#6-tax" id="6-tax"></a>
 
-Default Magento 2 lets store owners set up a tax system to aim at taxing customer groups, products, and specific places.&#x20;
 
-### 6.1. Tax rule  <a href="#6-1-tax-rule" id="6-1-tax-rule"></a>
 
-A tax rule is constituted by product class, customer class, and tax rate.&#x20;
 
-Each customer belongs to a specific customer group and is assigned to a customer class. Each product is also assigned to a product class. The default Magento checks the shopping cart of each customer, then calculate the complete tax based on customer class, product class, and the region (shipping address, billing address).&#x20;
-
-It can be said that the tax rule is created after product class, customer class and tax rate settings are completed.&#x20;
-
-{% hint style="info" %}
-When numerous taxes must be defined, you can simplify the process by importing them.
-{% endhint %}
-
-ing address, billing address or shipping origin).
-
-When numerous taxes must be defined, you can simplify the process by importing them.
-
-_Tax Rules_
-
-<figure><img src="https://docs.magento.com/user-guide/v2.3/images/images/tax-rules.png" alt=""><figcaption></figcaption></figure>
-
-#### Step 1: Complete the tax rule information
-
-1. On the _Admin_ sidebar, go to **Stores** > _Taxes_ > **Tax Rules**.
-2. In the upper-right corner, click Add New Tax Rule.
-3. Under _Tax Rule Information_, enter a **Name** for the new rule.
-4.  Choose the **Tax Rate** that applies to the rule.
-
-    If you need to edit an existing tax rate, do the following:
-
-    * Hover over the tax rate and click the **Edit**![](https://docs.magento.com/user-guide/v2.3/images/images/btn-edit.png) icon.
-    * Update the form as needed and click Save.
-
-    _Tax Rule Information_
-
-    <figure><img src="https://docs.magento.com/user-guide/v2.3/images/images/tax-rule-information.png" alt=""><figcaption></figcaption></figure>
-5. To enter tax rates, use either of the following methods:
-
-#### Method 1: Enter tax rates manually
-
-1. Click Add New Tax Rate.
-2. Complete the form as needed (see [Tax Zones and Rates](https://docs.magento.com/user-guide/v2.3/tax/tax-zones-rates.html)).
-3.  When complete, click Save.
-
-    _New Tax Rate_
-
-    <figure><img src="https://docs.magento.com/user-guide/v2.3/images/images/tax-rate-create-new.png" alt=""><figcaption></figcaption></figure>
-
-#### Method 2: Import tax rates
-
-1. Scroll down to the section at the bottom of the page.
-2. To import tax rates, do the following:
-   * Click **Choose File** and navigate to the CSV file with the tax rates to be imported.
-   * Click **Import Tax Rates**.
-3. To export tax rates, click **Export Tax Rates** (see [Import/Export Tax Rates](https://docs.magento.com/user-guide/v2.3/system/data-transfer-tax-rates.html)).
-
-_Import / Export Tax Rates_
-
-<figure><img src="https://docs.magento.com/user-guide/v2.3/images/images/tax-rule-new-import-export.png" alt=""><figcaption></figcaption></figure>
-
-#### Step 2: Complete the additional settings
-
-1. Click **Additional Settings** to open the section.
-2. Choose the **Customer Tax Class** to which the rule applies.
-   * To edit a customer tax class, click the edit ![](https://docs.magento.com/user-guide/v2.3/images/images/btn-edit.png) icon, update the form as needed, and click Save.
-   * To create a new tax class, click Add New Tax Class, complete the form as needed, and click Save.
-3. Choose the **Product Tax Class** to which the rule applies.
-   * To edit a product tax class, click the edit ![](https://docs.magento.com/user-guide/v2.3/images/images/btn-edit.png) icon, update the form as needed, and click **Save**.
-   * To create a new tax class, click Add New Tax Class, complete the form as needed, and click Save.
-4.  When more than one tax applies, enter a number to indicate the priority of this tax for **Priority**.
-
-    If two tax rules with the same priority apply, the taxes are added together. If two taxes with different priority settings apply, the taxes are compounded.
-5. If you want taxes to be based on the order subtotal, select the **Calculate off Subtotal Only** checkbox.
-6.  For **Sort Order**, enter a number to indicate the order of this tax rule when listed with others.
-
-    _Additional Settings_
-
-    <figure><img src="https://docs.magento.com/user-guide/v2.3/images/images/tax-rule-new-additional-settings.png" alt=""><figcaption></figcaption></figure>
-7. When complete, click Save Rule.
-
-### 6.2 Tax role and rate
-
-Tax rates generally apply to transactions that take place within a specific geographical area. Use the _Tax Zones and Rates_ tool to specify the tax rate for each geographical area from which you collect and remit taxes. Because each tax zone and rate has a unique identifier, you can have multiple tax rates for a given geographic area (such as places that do not tax food or medicine, but do tax other items).
-
-Store tax is calculated based on the store’s address. The actual customer tax for an order is calculated after the customer completes the order information. Commerce then calculates the tax according to the tax configuration of the store.
-
-![Tax Zones and Rates](https://experienceleague.adobe.com/docs/commerce-admin/assets/tax-zones-rates.png?lang=en)
-
-#### Define a new tax rate <a href="#define-a-new-tax-rate" id="define-a-new-tax-rate"></a>
-
-1. On the _Admin_ sidebar, go to **Stores** > _Taxes_ > **Tax Zones and Rates**.
-2. In the upper-right corner, click **Add New Tax Rate**.
-3. Enter a **Tax Identifier**.
-4.  To apply the tax rate to a single ZIP or postal code, enter the code for **Zip/Post Code**.
-
-    The asterisk wildcard (`*`) can be used to match up to ten characters in the code. For example, `90*` represents all ZIP codes from 90000 through 90999.
-5. To apply the tax rate to a range of ZIP or postal codes, do the following:
-   *   Select the **Zip/Post is Range** checkbox and define the range by entering the first and last ZIP or postal code for **Range From** and **Range To**.
-
-       ![ZIP/Post is Range](https://experienceleague.adobe.com/docs/commerce-admin/assets/tax-rate-new-zip-post-range.png?lang=en)
-   * Choose the **State** where the tax rate applies.
-   * Choose the **Country** where the tax rate applies.
-   * Enter the **Rate Percent** that is used for the tax rate calculation.
-6.  If you have multiple stores, you can set **Tax Titles** for each store view.
-
-    NOTE
-
-    Leave this field empty if you want to use the tax identifier.
-7.  When complete, click **Save Rate**.
-
-    ![New Tax Rate](https://experienceleague.adobe.com/docs/commerce-admin/assets/tax-rate-new.png?lang=en)
-
-#### Edit an existing tax rate <a href="#edit-an-existing-tax-rate" id="edit-an-existing-tax-rate"></a>
-
-1. On the _Admin_ sidebar, go to **Stores** > _Taxes_ > **Tax Zones and Rates**.
-2.  Find the tax rate in the _Tax Zones and Rates_ grid, and open the record in edit mode.
-
-    If there are many rates in the list, use the [filter controls](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/tools/admin-grid-controls.html?lang=en) to find the rate you need.
-3. Make the necessary changes to the **Tax Rate Information**.
-4. Update the **Tax Titles** as needed.
-5. When complete, click **Save Rate**.
-
-#### Delete tax rate <a href="#delete-tax-rate" id="delete-tax-rate"></a>
-
-1. On the _Admin_ sidebar, go to **Stores** > _Taxes_ > **Tax Zones and Rates**.
-2. Find the tax rate to be deleted and open it in edit mode.
-3. In the menu bar, click **Delete Rate**.
-4. To confirm the action, click **OK**.

@@ -401,20 +401,15 @@ _Apply Coupon in Cart_
 
 ### Filter Options by column
 
-| COLUMN      |                                                                  DESCRIPTION                                                                  |
-| ----------- | :-------------------------------------------------------------------------------------------------------------------------------------------: |
-| ID          |                                          Enter text to filter the list for a specific rule ID number.                                         |
-| Rule        |                            Enter text to filter the list based on the rule name defined when the rule was created.                            |
+|    COLUMN   |                                                                  DESCRIPTION                                                                  |
+| :---------: | :-------------------------------------------------------------------------------------------------------------------------------------------: |
+|      ID     |                                          Enter text to filter the list for a specific rule ID number.                                         |
+|     Rule    |                            Enter text to filter the list based on the rule name defined when the rule was created.                            |
 | Coupon Code |                            Enter text to filter the list based on the code name defined when the rule was created.                            |
-| Priority    |                                Free-text field that filters the list based on the priority defined for a rule.                                |
-| Status      |                                Use this option to filter the list based on rule status, `Active` or `Inactive`.                               |
-| Web Site    |                                    Use this option to filter the list based on websites defined for a rule.                                   |
-| Action      |              Click **Edit** to display the Rule Information page and update the rule’s settings (similar to creating a new rule).             |
-| Start       | Use the dynamic calendar fields (To: and From:) to filter the list based on the start date for the rule as defined when the rule was created. |
-| End         |  Use the dynamic calendar fields (To: and From:) to filter the list based on the end date for the rule as defined when the rule was created.  |
+|   Priority  |                                Free-text field that filters the list based on the priority defined for a rule.                                |
+|    Status   |                                Use this option to filter the list based on rule status, `Active` or `Inactive`.                               |
+|   Web Site  |                                    Use this option to filter the list based on websites defined for a rule.                                   |
+|  !! Action  |              Click **Edit** to display the Rule Information page and update the rule’s settings (similar to creating a new rule).             |
+|   !! Start  | Use the dynamic calendar fields (To: and From:) to filter the list based on the start date for the rule as defined when the rule was created. |
+|    !! End   |  Use the dynamic calendar fields (To: and From:) to filter the list based on the end date for the rule as defined when the rule was created.  |
 
-## 10.Price Box
-
-
-
-## 11. Price indexing

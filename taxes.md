@@ -2,11 +2,13 @@
 description: Stores and Purchase Experience
 ---
 
-# Tax
+# Taxes
+
+Original Link: [https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/taxes/taxes.html?lang=en](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/taxes/taxes.html?lang=en)
 
 Default Magento 2 lets store owners set up a tax system to aim at taxing customer groups, products, and specific places.&#x20;
 
-### 6.1. Tax rule  <a href="#6-1-tax-rule" id="6-1-tax-rule"></a>
+## 6.1. Tax rule  <a href="#6-1-tax-rule" id="6-1-tax-rule"></a>
 
 A tax rule is constituted by product class, customer class, and tax rate.&#x20;
 
@@ -85,7 +87,7 @@ _Import / Export Tax Rates_
     <figure><img src="https://docs.magento.com/user-guide/v2.3/images/images/tax-rule-new-additional-settings.png" alt=""><figcaption></figcaption></figure>
 7. When complete, click Save Rule.
 
-### 6.2 Tax role and rate
+## 6.2 Tax role and rate
 
 Tax rates generally apply to transactions that take place within a specific geographical area. Use the _Tax Zones and Rates_ tool to specify the tax rate for each geographical area from which you collect and remit taxes. Because each tax zone and rate has a unique identifier, you can have multiple tax rates for a given geographic area (such as places that do not tax food or medicine, but do tax other items).
 
@@ -134,5 +136,68 @@ Store tax is calculated based on the store’s address. The actual customer tax 
 3. In the menu bar, click **Delete Rate**.
 4. To confirm the action, click **OK**.
 
-### 6.3 Tax classes
+## 6.3 Tax configuration settings
 
+### Configure the general tax settings <a href="#configure-the-general-tax-settings" id="configure-the-general-tax-settings"></a>
+
+1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
+2. For a multisite configuration, set **Store View** to the website and store that is the target of the configuration.
+3. In the left panel, expand **Sales** and choose **Tax**.
+4.  Complete the following configuration settings.
+
+    If necessary, clear the **Use system value** checkbox of any settings that are dimmed.
+
+* **Tax classes**
+* **Calculation Settings**
+* #### Default Tax Destination Calculation <a href="#default-tax-destination-calculation" id="default-tax-destination-calculation"></a>
+* #### Price Display Settings <a href="#default-tax-destination-calculation" id="default-tax-destination-calculation"></a>
+* #### Shopping Cart Display Settings <a href="#default-tax-destination-calculation" id="default-tax-destination-calculation"></a>
+* **Orders, Invoices, Credit Memos Display Settings**
+*   #### Fixed Product Taxes <a href="#fixed-product-taxes" id="fixed-product-taxes"></a>
+
+    ****
+
+### **1. Tax classes**
+
+1.  Expand ![Expansion selector](https://experienceleague.adobe.com/docs/commerce-admin/assets/icon-display-expand.png?lang=en) the **Tax Classes** section.
+
+    ![Tax Classes](https://experienceleague.adobe.com/docs/commerce-admin/assets/tax-tax-classes.png?lang=en)
+
+    * **Tax Class for Shipping** — Set to the appropriate class. The default classes are: `None` and `Taxable Goods`
+    * **Tax Class for Gift Options** — ![Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-admin/assets/adobe-logo.svg?lang=en) (Adobe Commerce only) Set to the appropriate class. The default classes are: `None` and `Taxable Goods`
+    * **Default Tax Class for Product** — Set to the appropriate class. The default classes are: `None` and `Taxable Goods`
+    * **Default Tax Class for Customer** — Set to the appropriate class. The default class is: `Retail Customer` and `Wholesale Customer`
+2. When complete, click **Save Config**.
+
+### 2. Calculation Settings
+
+1. Expand ![Expansion selector](https://experienceleague.adobe.com/docs/commerce-admin/assets/icon-display-expand.png?lang=en) the **Default Tax Destination Calculation** section.
+
+#### Default Tax Destination Calculation <a href="#default-tax-destination-calculation" id="default-tax-destination-calculation"></a>
+
+1.  Expand the **Calculation Settings** section.
+
+    ![Calculation Settings](https://experienceleague.adobe.com/docs/commerce-admin/assets/tax-calculation-settings.png?lang=en)
+2. Set **Tax Calculation Method Based On** to one of the following:
+   * `Unit Price` - The price of each product
+   * `Row Total` - The total of the line item in the order, less discounts
+   * `Total` - The order total
+3. Set **Tax Calculation Based On** to one of the following:
+   * `Shipping Address` - The address where the order is to be shipped
+   * `Billing Address` - The billing address of the customer or company
+   * `Shipping Origin` - The address that is specified as the [point of origin](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/delivery/shipping-settings.html?lang=en#point-of-origin) for your store
+4. Set **Catalog Prices** to `Excluding Tax` or `Including Tax`.
+5. Set **Shipping Prices** to `Excluding Tax` or `Including Tax`.
+6. Set **Apply Customer Tax** to one of the following to determine whether tax is applied to the original or discounted price: `After Discount` or `Before Discount`
+7. Set **Apply Discount on Prices** to one of the following to determine if discounts include or exclude tax: `Excluding Tax` or `Including Tax`
+8. Set **Apply Tax On** to `Custom price if available` or `Original price only`.
+9.  Set **Enable Cross-Border Trade** to one of the following:
+
+    * `Yes` - Use consistent pricing across different tax rates. If the catalog price includes tax, choose this setting to fix the price regardless of the customer’s tax rate.
+    * `No` - Vary the price by tax rate.
+
+    IMPORTANT
+
+    If cross-border trade is enabled, the profit margin changes by tax rate. Profit is determined by the formula (`Revenue - CustomerVAT - CostOfGoodsSold`). To enable cross-border trade, prices must be set to include tax.
+
+### &#x20;

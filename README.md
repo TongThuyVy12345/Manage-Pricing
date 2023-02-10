@@ -119,7 +119,7 @@ For example: Tier prices are displayed on the frontend as below\\
 
 > Default Magento 2 supports importing Customer Group Price via the Import function.
 
-#### [Import tier prices.](import-tier-prices.md) <a href="#import-tier-prices" id="import-tier-prices"></a>
+#### [Import tier prices.](readme/import-tier-prices.md) <a href="#import-tier-prices" id="import-tier-prices"></a>
 
 **Group Price**: is the discount price for specific customer groups. It is also a component of tier price with the same settings. However, customer group price is used for quantity as 1.
 

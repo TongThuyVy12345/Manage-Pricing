@@ -37,7 +37,7 @@ Store tax is calculated based on the store’s address. The actual customer tax 
 1. On the _Admin_ sidebar, go to **Stores** > _Taxes_ > **Tax Zones and Rates**.
 2.  Find the tax rate in the _Tax Zones and Rates_ grid, and open the record in edit mode.
 
-    If there are many rates in the list, use the [filter controls](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/tools/admin-grid-controls.html?lang=en) to find the rate you need.
+    If there are many rates in the list, use the filter controls to find the rate you need.
 3. Make the necessary changes to the **Tax Rate Information**.
 4. Update the **Tax Titles** as needed.
 5. When complete, click **Save Rate**.
@@ -58,9 +58,7 @@ ing address, billing address or shipping origin).
 
 When numerous taxes must be defined, you can simplify the process by importing them.
 
-_Tax Rules_
-
-<figure><img src="https://docs.magento.com/user-guide/v2.3/images/images/tax-rules.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://docs.magento.com/user-guide/v2.3/images/images/tax-rules.png" alt=""><figcaption><p><em>Tax Rules</em></p></figcaption></figure>
 
 ### Step 1: Complete the tax rule information
 
@@ -74,20 +72,18 @@ _Tax Rules_
     * Hover over the tax rate and click the **Edit**![](https://docs.magento.com/user-guide/v2.3/images/images/btn-edit.png) icon.
     * Update the form as needed and click Save.
 
-    _Tax Rule Information_
-
-    <figure><img src="https://docs.magento.com/user-guide/v2.3/images/images/tax-rule-information.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="https://docs.magento.com/user-guide/v2.3/images/images/tax-rule-information.png" alt=""><figcaption><p><em>Tax Rule Information</em></p></figcaption></figure>
 5. To enter tax rates, use either of the following methods:
 
 #### Method 1: Enter tax rates manually
 
 1. Click Add New Tax Rate.
-2. Complete the form as needed (see [Tax Zones and Rates](https://docs.magento.com/user-guide/v2.3/tax/tax-zones-rates.html)).
+2. Complete the form as needed (see Tax Zones and Rates).
 3.  When complete, click Save.
 
-    _New Tax Rate_
+    __
 
-    <figure><img src="https://docs.magento.com/user-guide/v2.3/images/images/tax-rate-create-new.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="https://docs.magento.com/user-guide/v2.3/images/images/tax-rate-create-new.png" alt=""><figcaption><p><em>New Tax Rate</em></p></figcaption></figure>
 
 #### Method 2: Import tax rates
 
@@ -95,7 +91,7 @@ _Tax Rules_
 2. To import tax rates, do the following:
    * Click **Choose File** and navigate to the CSV file with the tax rates to be imported.
    * Click **Import Tax Rates**.
-3. To export tax rates, click **Export Tax Rates** (see [Import/Export Tax Rates](https://docs.magento.com/user-guide/v2.3/system/data-transfer-tax-rates.html)).
+3. To export tax rates, click **Export Tax Rates** (see Import/Export Tax Rates).
 
 _Import / Export Tax Rates_
 
@@ -123,4 +119,55 @@ _Import / Export Tax Rates_
 
 ## 3. Tax Classes
 
-## 4.Calculation
+Tax classes can be assigned to customers, products, and shipping. Magento analyzes the shopping cart of each customer and calculates the appropriate tax according to the class of the customer, the class of the products in the cart, and the region (as determined by the customer’s shipping address, billing address or shipping origin). New tax classes can be created when a [tax rule](tax.md#2.-tax-rule) is defined.
+
+* Customer — You can create as many customer tax classes as you need, and assign them to customer groups. For example, in some jurisdictions, wholesale transactions are not taxed, but retail transactions are. You can associate members of the Wholesale Customer group with the Wholesale tax class.
+* [Product ](https://app.gitbook.com/s/kyzqRYpSaLUja91IhXgX/)— Product classes are used in calculations to determine the correct tax rate is applied in the shopping cart. When you create product, it is assigned to a specific tax class. For example, food might not be taxed, or be taxed at a different rate.
+* Shipping — If your store charges an additional tax on shipping, you should designate a specific product tax class for shipping. Then in the configuration, specify it as the tax class that is used for shipping.
+
+The tax class that is used for shipping, and the default tax classes for products and customers are set in the Sales configuration.
+
+<figure><img src="https://docs.magento.com/user-guide/v2.3/images/images/config-sales-tax-tax-classes.png" alt=""><figcaption><p><em>Tax Classes</em></p></figcaption></figure>
+
+### Configure tax classes
+
+1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
+2. In the left panel, expand **Sales** and choose **Tax**.
+3. Expand ![](https://docs.magento.com/user-guide/v2.3/images/images/btn-expand.png) the **Tax Classes** section.
+4. Choose the tax class for each of the following:
+   * **Set Tax Class for Shipping**
+   * **Default Tax Class for Product**
+   * **Default Tax Class for Customer**
+5. When complete, click Save Config.
+
+### Adding New Tax Classes
+
+Tax classes for customers and products can be easily added, and then assigned to individual customers and products, and used in tax rules.
+
+<figure><img src="https://docs.magento.com/user-guide/v2.3/images/images-ee/tax-classes-updated.png" alt=""><figcaption><p><em>New Tax Classes</em></p></figcaption></figure>
+
+### Add a new tax class
+
+1. On the _Admin_ sidebar, go to **Stores** > _Taxes_ > **Tax Rules**.
+2. Click **Add New Tax Rule**.
+3. Expand ![](https://docs.magento.com/user-guide/v2.3/images/images/btn-expand.png) the **Additional Settings** section.
+4.  Under _Customer Tax Class_, click **Add New Tax Class**.
+
+    __
+
+    <figure><img src="https://docs.magento.com/user-guide/v2.3/images/images/tax-class-customer-add-new.png" alt=""><figcaption><p><em>Add New Tax Class</em></p></figcaption></figure>
+5.  Enter the **Name** of the new tax class in the text box and click the checkmark to add the new class to the list of available customer tax classes.
+
+    __
+
+    <figure><img src="https://docs.magento.com/user-guide/v2.3/images/images/tax-class-customer-add-new-wholesale.png" alt=""><figcaption><p><em>Wholesale Tax Class</em></p></figcaption></figure>
+
+### Add a new product tax class
+
+1. Under _Product Tax Class_, click **Add New Tax Class**.
+2. Enter the **Name** of the new tax class in the text box and click the checkmark to add the new class to the list of available product tax classes.
+
+<figure><img src="https://docs.magento.com/user-guide/v2.3/images/images-ee/tax-class-product-add-new-digital.png" alt=""><figcaption><p><em>Digital Product Tax Class</em><br><em>Adobe Commerce only</em></p></figcaption></figure>
+
+3. When complete, click **Back** in the button bar to return to the _Tax Rules_ grid.
+

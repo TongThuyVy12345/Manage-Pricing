@@ -335,7 +335,7 @@ Read more :[Currency](currency.md)
 ## **6. Tax**  <a href="#6-tax" id="6-tax"></a>
 
 {% hint style="info" %}
-Please read in this section: [Tax](<tax (1).md>)
+Please read in this section: [Tax](broken-reference)
 {% endhint %}
 
 ## 7. Final Price

@@ -8,6 +8,8 @@ Original Link: [https://experienceleague.adobe.com/docs/commerce-admin/stores-sa
 
 Default Magento 2 lets store owners set up a tax system to aim at taxing customer groups, products, and specific places.&#x20;
 
+## &#x20;<a href="#6-1-tax-rule" id="6-1-tax-rule"></a>
+
 ## 6.1. Tax rule  <a href="#6-1-tax-rule" id="6-1-tax-rule"></a>
 
 A tax rule is constituted by product class, customer class, and tax rate.&#x20;
@@ -28,7 +30,7 @@ _Tax Rules_
 
 <figure><img src="https://docs.magento.com/user-guide/v2.3/images/images/tax-rules.png" alt=""><figcaption></figcaption></figure>
 
-#### Step 1: Complete the tax rule information
+### Step 1: Complete the tax rule information
 
 1. On the _Admin_ sidebar, go to **Stores** > _Taxes_ > **Tax Rules**.
 2. In the upper-right corner, click Add New Tax Rule.
@@ -67,7 +69,7 @@ _Import / Export Tax Rates_
 
 <figure><img src="https://docs.magento.com/user-guide/v2.3/images/images/tax-rule-new-import-export.png" alt=""><figcaption></figcaption></figure>
 
-#### Step 2: Complete the additional settings
+### Step 2: Complete the additional settings
 
 1. Click **Additional Settings** to open the section.
 2. Choose the **Customer Tax Class** to which the rule applies.
@@ -87,7 +89,7 @@ _Import / Export Tax Rates_
     <figure><img src="https://docs.magento.com/user-guide/v2.3/images/images/tax-rule-new-additional-settings.png" alt=""><figcaption></figcaption></figure>
 7. When complete, click Save Rule.
 
-## 6.2 Tax role and rate
+## 6.2 Tax Zones and rate
 
 Tax rates generally apply to transactions that take place within a specific geographical area. Use the _Tax Zones and Rates_ tool to specify the tax rate for each geographical area from which you collect and remit taxes. Because each tax zone and rate has a unique identifier, you can have multiple tax rates for a given geographic area (such as places that do not tax food or medicine, but do tax other items).
 
@@ -95,7 +97,7 @@ Store tax is calculated based on the store’s address. The actual customer tax 
 
 ![Tax Zones and Rates](https://experienceleague.adobe.com/docs/commerce-admin/assets/tax-zones-rates.png?lang=en)
 
-#### Define a new tax rate <a href="#define-a-new-tax-rate" id="define-a-new-tax-rate"></a>
+### Define a new tax rate <a href="#define-a-new-tax-rate" id="define-a-new-tax-rate"></a>
 
 1. On the _Admin_ sidebar, go to **Stores** > _Taxes_ > **Tax Zones and Rates**.
 2. In the upper-right corner, click **Add New Tax Rate**.
@@ -115,11 +117,11 @@ Store tax is calculated based on the store’s address. The actual customer tax 
     NOTE
 
     Leave this field empty if you want to use the tax identifier.
-7.  When complete, click **Save Rate**.
+7. When complete, click **Save Rate**.
 
-    ![New Tax Rate](https://experienceleague.adobe.com/docs/commerce-admin/assets/tax-rate-new.png?lang=en)
+![New Tax Rate](https://experienceleague.adobe.com/docs/commerce-admin/assets/tax-rate-new.png?lang=en)
 
-#### Edit an existing tax rate <a href="#edit-an-existing-tax-rate" id="edit-an-existing-tax-rate"></a>
+### Edit an existing tax rate <a href="#edit-an-existing-tax-rate" id="edit-an-existing-tax-rate"></a>
 
 1. On the _Admin_ sidebar, go to **Stores** > _Taxes_ > **Tax Zones and Rates**.
 2.  Find the tax rate in the _Tax Zones and Rates_ grid, and open the record in edit mode.
@@ -128,13 +130,6 @@ Store tax is calculated based on the store’s address. The actual customer tax 
 3. Make the necessary changes to the **Tax Rate Information**.
 4. Update the **Tax Titles** as needed.
 5. When complete, click **Save Rate**.
-
-#### Delete tax rate <a href="#delete-tax-rate" id="delete-tax-rate"></a>
-
-1. On the _Admin_ sidebar, go to **Stores** > _Taxes_ > **Tax Zones and Rates**.
-2. Find the tax rate to be deleted and open it in edit mode.
-3. In the menu bar, click **Delete Rate**.
-4. To confirm the action, click **OK**.
 
 ## 6.3 Tax configuration settings
 
@@ -147,8 +142,8 @@ Store tax is calculated based on the store’s address. The actual customer tax 
 
     If necessary, clear the **Use system value** checkbox of any settings that are dimmed.
 
-* **Tax classes**
-* **Calculation Settings**
+* ****[**Tax classes**](<tax (1).md#1.-tax-classes>)****
+* ****[**Calculation Settings**](<tax (1).md#2.-calculation-settings>)****
 * #### Default Tax Destination Calculation <a href="#default-tax-destination-calculation" id="default-tax-destination-calculation"></a>
 * #### Price Display Settings <a href="#default-tax-destination-calculation" id="default-tax-destination-calculation"></a>
 * #### Shopping Cart Display Settings <a href="#default-tax-destination-calculation" id="default-tax-destination-calculation"></a>
@@ -171,10 +166,6 @@ Store tax is calculated based on the store’s address. The actual customer tax 
 
 ### 2. Calculation Settings
 
-1. Expand ![Expansion selector](https://experienceleague.adobe.com/docs/commerce-admin/assets/icon-display-expand.png?lang=en) the **Default Tax Destination Calculation** section.
-
-#### Default Tax Destination Calculation <a href="#default-tax-destination-calculation" id="default-tax-destination-calculation"></a>
-
 1.  Expand the **Calculation Settings** section.
 
     ![Calculation Settings](https://experienceleague.adobe.com/docs/commerce-admin/assets/tax-calculation-settings.png?lang=en)
@@ -185,19 +176,52 @@ Store tax is calculated based on the store’s address. The actual customer tax 
 3. Set **Tax Calculation Based On** to one of the following:
    * `Shipping Address` - The address where the order is to be shipped
    * `Billing Address` - The billing address of the customer or company
-   * `Shipping Origin` - The address that is specified as the [point of origin](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/delivery/shipping-settings.html?lang=en#point-of-origin) for your store
+   * `Shipping Origin` - The address that is specified as the point of origin for your store
 4. Set **Catalog Prices** to `Excluding Tax` or `Including Tax`.
 5. Set **Shipping Prices** to `Excluding Tax` or `Including Tax`.
 6. Set **Apply Customer Tax** to one of the following to determine whether tax is applied to the original or discounted price: `After Discount` or `Before Discount`
 7. Set **Apply Discount on Prices** to one of the following to determine if discounts include or exclude tax: `Excluding Tax` or `Including Tax`
 8. Set **Apply Tax On** to `Custom price if available` or `Original price only`.
-9.  Set **Enable Cross-Border Trade** to one of the following:
+9. Set **Enable Cross-Border Trade** to one of the following:
+   * `Yes` - Use consistent pricing across different tax rates. If the catalog price includes tax, choose this setting to fix the price regardless of the customer’s tax rate.
+   * `No` - Vary the price by tax rate.
 
-    * `Yes` - Use consistent pricing across different tax rates. If the catalog price includes tax, choose this setting to fix the price regardless of the customer’s tax rate.
-    * `No` - Vary the price by tax rate.
+{% hint style="danger" %}
+If cross-border trade is enabled, the profit margin changes by tax rate. Profit is determined by the formula (`Revenue - CustomerVAT - CostOfGoodsSold`). To enable cross-border trade, prices must be set to include tax.
+{% endhint %}
 
-    IMPORTANT
+1.  Expand ![Expansion selector](https://experienceleague.adobe.com/docs/commerce-admin/assets/icon-display-expand.png?lang=en) the **Default Tax Destination Calculation** section.
 
-    If cross-border trade is enabled, the profit margin changes by tax rate. Profit is determined by the formula (`Revenue - CustomerVAT - CostOfGoodsSold`). To enable cross-border trade, prices must be set to include tax.
+    ![Default Tax Destination Calculation](https://experienceleague.adobe.com/docs/commerce-admin/assets/tax-default-tax-destination-calculation.png?lang=en)
+2. Specify the **Default Country** for tax calculations.
+3. If applicable, specify the **Default State** for tax calculations.
+4. If applicable, specify the **Default Post Code** for tax calculations.
+5. When complete, click **Save Config**.
 
-### &#x20;
+### 3.Default Tax Destination Calculation <a href="#default-tax-destination-calculation" id="default-tax-destination-calculation"></a>
+
+The "Default Tax Destination Calculation" in Magento 2 is a setting that determines the location used for calculating tax rates for an order.
+
+1.  Expand ![Expansion selector](https://experienceleague.adobe.com/docs/commerce-admin/assets/icon-display-expand.png?lang=en) the **Default Tax Destination Calculation** section.
+
+    ![Default Tax Destination Calculation](https://experienceleague.adobe.com/docs/commerce-admin/assets/tax-default-tax-destination-calculation.png?lang=en)
+2. Specify the **Default Country** for tax calculations.
+3. If applicable, specify the **Default State** for tax calculations.
+4. If applicable, specify the **Default Post Code** for tax calculations.
+5. When complete, click **Save Config**
+
+### 4.Price Display Settings
+
+{% hint style="warning" %}
+Some combinations of settings related to a price display that both include and exclude tax can be confusing to the customer. To avoid triggering a warning message, see the recommended settings.
+{% endhint %}
+
+1.  Expand ![Expansion selector](https://experienceleague.adobe.com/docs/commerce-admin/assets/icon-display-expand.png?lang=en) the **Price Display Settings** section.
+
+    ![Price Display Settings](https://experienceleague.adobe.com/docs/commerce-admin/assets/tax-price-display-settings.png?lang=en)
+2. Set **Display Product Prices in Catalog** to one of the following:
+   * `Excluding Tax` - Catalog prices that appear in the storefront do not include tax.
+   * `Including Tax` - Catalog prices in the storefront include tax only if a tax rule matches the tax origin, or if the customer’s address matches the tax rule. This might happen after a customer creates an account, logs in, or uses the Estimate Tax and Shipping tool in the cart.
+   * `Including and Excluding Tax` - Catalog prices that appear in the storefront are displayed both with, and without tax.
+3. Set **Display Shipping Prices** to `Excluding Tax`, `Including Tax`, or `Including and Excluding Tax`.
+4. When complete, click **Save Config**.

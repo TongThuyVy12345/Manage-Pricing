@@ -140,8 +140,6 @@ The tax class that is used for shipping, and the default tax classes for product
    * **Default Tax Class for Customer**
 5. When complete, click Save Config.
 
-### Adding New Tax Classes
-
 Tax classes for customers and products can be easily added, and then assigned to individual customers and products, and used in tax rules.
 
 <figure><img src="https://docs.magento.com/user-guide/v2.3/images/images-ee/tax-classes-updated.png" alt=""><figcaption><p><em>New Tax Classes</em></p></figcaption></figure>

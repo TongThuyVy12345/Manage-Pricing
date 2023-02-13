@@ -16,7 +16,7 @@ Value-added tax (VAT) is a type of indirect tax levied on goods and services for
 
 <figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption><p>Store Information</p></figcaption></figure>
 
-## ~~Customer Information~~ <a href="#customer-information" id="customer-information"></a>
+## Customer Information <a href="#customer-information" id="customer-information"></a>
 
 #### ~~Customers > All Customers > Edit~~
 

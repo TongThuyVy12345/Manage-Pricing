@@ -111,7 +111,7 @@ Tier Price: allows you to provide a quantity discount for products from the cata
 In Magento 2, you cannot find out the Tier price settings as in Magento 1 because it is changed into Customer Group Price.
 {% endhint %}
 
-<figure><img src=".gitbook/assets/image (4).png" alt=""><figcaption><p>Customer Group Price</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (4) (1).png" alt=""><figcaption><p>Customer Group Price</p></figcaption></figure>
 
 For example: Tier prices are displayed on the frontend as below\\
 
@@ -127,11 +127,11 @@ For example: Tier prices are displayed on the frontend as below\\
 
 If your store does sell configurable products, you can customize Magento 2 configurable product price: the way to calculate tier prices for children products. By using Magento 2 Configurable Product Wholesale Display, Grid Table View or Matrix View extension, tier prices are calculated based on the total quantity of children products added to cart.
 
-<figure><img src=".gitbook/assets/image.png" alt=""><figcaption><p>Configurable Product Wholesale Display</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (4).png" alt=""><figcaption><p>Configurable Product Wholesale Display</p></figcaption></figure>
 
 <figure><img src=".gitbook/assets/image (3).png" alt=""><figcaption><p>Grid Table View</p></figcaption></figure>
 
-<figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption><p>Matrix View extension</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (2) (1).png" alt=""><figcaption><p>Matrix View extension</p></figcaption></figure>
 
 ### **4. Option Price** <a href="#4-option-price" id="4-option-price"></a>
 

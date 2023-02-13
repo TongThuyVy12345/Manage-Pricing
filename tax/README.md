@@ -119,7 +119,7 @@ _Import / Export Tax Rates_
 
 ## 3. Tax Classes
 
-Tax classes can be assigned to customers, products, and shipping. Magento analyzes the shopping cart of each customer and calculates the appropriate tax according to the class of the customer, the class of the products in the cart, and the region (as determined by the customer’s shipping address, billing address or shipping origin). New tax classes can be created when a [tax rule](tax.md#2.-tax-rule) is defined.
+Tax classes can be **assigned to customers, products, and shipping**. Magento analyzes the shopping cart of each customer and calculates the appropriate tax according to the class of the customer, the class of the products in the cart, and the region (as determined by the customer’s shipping address, billing address or shipping origin). New tax classes can be created when a [tax rule](./#2.-tax-rule) is defined.
 
 * Customer — You can create as many customer tax classes as you need, and assign them to customer groups. For example, in some jurisdictions, wholesale transactions are not taxed, but retail transactions are. You can associate members of the Wholesale Customer group with the Wholesale tax class.
 * [Product ](https://app.gitbook.com/s/kyzqRYpSaLUja91IhXgX/)— Product classes are used in calculations to determine the correct tax rate is applied in the shopping cart. When you create product, it is assigned to a specific tax class. For example, food might not be taxed, or be taxed at a different rate.
@@ -139,6 +139,10 @@ The tax class that is used for shipping, and the default tax classes for product
    * **Default Tax Class for Product**
    * **Default Tax Class for Customer**
 5. When complete, click Save Config.
+
+## Adding New Tax Classes
+
+
 
 Tax classes for customers and products can be easily added, and then assigned to individual customers and products, and used in tax rules.
 

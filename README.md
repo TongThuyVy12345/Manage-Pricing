@@ -129,7 +129,7 @@ If your store does sell configurable products, you can customize Magento 2 confi
 
 <figure><img src=".gitbook/assets/image (4).png" alt=""><figcaption><p>Configurable Product Wholesale Display</p></figcaption></figure>
 
-<figure><img src=".gitbook/assets/image (3).png" alt=""><figcaption><p>Grid Table View</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (3) (1).png" alt=""><figcaption><p>Grid Table View</p></figcaption></figure>
 
 <figure><img src=".gitbook/assets/image (2) (1).png" alt=""><figcaption><p>Matrix View extension</p></figcaption></figure>
 
